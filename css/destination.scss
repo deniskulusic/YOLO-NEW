@@ -9,10 +9,7 @@ $blue-overlay:rgba(1, 49, 170, 0.8);
     width: 100%;
     height: 99.6%;
 }
-.navbar{
-    background-color: transparent;
-}
-.navbar{
+.menu-full{
     background-color: transparent;
     color:white;
 }
@@ -319,6 +316,9 @@ position: relative;
 .inverted{
     background-color: #FFFFFF;
     color: #000000;
+    .han-burger, .han-burger::after,.han-burger::before {
+        background-color: black;
+    }
 }
 .text-box-3{
     .left-side{

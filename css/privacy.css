@@ -2,6 +2,10 @@
   display: none;
 }
 
+.han-burger, .han-burger::after, .han-burger::before {
+  background-color: black !important;
+}
+
 .naslov {
   display: flex;
   height: 224px;

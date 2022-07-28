@@ -30,10 +30,9 @@ picture img {
   height: 48px;
   background-color: #0047FF;
   border-radius: 100%;
-  filter: drop-shadow(6px 57px 23px rgba(26, 113, 255, 0.04)) drop-shadow(3px 32px 20px rgba(26, 113, 255, 0.13)) drop-shadow(2px 14px 14px rgba(26, 113, 255, 0.21)) drop-shadow(0px 4px 8px rgba(26, 113, 255, 0.25)) drop-shadow(0px 0px 0px rgba(26, 113, 255, 0.25));
 }
 
-.navbar {
+.menu-full {
   background-color: transparent;
   color: white;
 }
@@ -199,6 +198,7 @@ picture img {
 
 .slider {
   position: absolute;
+  scroll-behavior: smooth;
   right: 0;
   left: calc(50% - 82px);
   display: flex;
@@ -207,6 +207,8 @@ picture img {
   overflow: scroll;
   overflow-y: hidden;
   height: 652px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .slider-element {
@@ -305,15 +307,32 @@ picture img {
   margin-bottom: 16px;
 }
 
+.slider-coments::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+.slider::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+.absolute {
+  position: absolute;
+  margin-bottom: -96px;
+  justify-self: right;
+}
+
 .slider-coments {
   z-index: 3;
   position: absolute;
   right: 0;
   left: calc(50% - 584px);
   display: flex;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
   -moz-column-gap: 32px;
        column-gap: 32px;
   overflow: scroll;
+  scroll-behavior: smooth;
   overflow-y: hidden;
   height: 372px;
 }
@@ -470,15 +489,12 @@ picture img {
   margin-bottom: 552px;
 }
 
-.blurr {
-  -webkit-backdrop-filter: blur(150px);
-          backdrop-filter: blur(150px);
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
 .inverted {
   background-color: #FFFFFF;
   color: black;
+}
+.inverted .han-burger, .inverted .han-burger::after, .inverted .han-burger::before {
+  background-color: black;
 }
 
 @media only screen and (max-width: 1440px) {

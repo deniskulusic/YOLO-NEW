@@ -5,7 +5,7 @@
 .naslov {
   display: flex;
   height: 224px;
-  width: auto;
+  width: 1400px;
   align-self: center;
   flex-direction: column;
   margin-top: 236px;
@@ -31,7 +31,7 @@
 .shine {
   height: 70px;
   width: 76px;
-  margin-left: 850px;
+  margin-left: 1150px;
   margin-top: -270px;
 }
 
@@ -230,6 +230,10 @@ input:focus {
   width: 47.5%;
 }
 
+.han-burger, .han-burger::after, .han-burger::before {
+  background-color: black !important;
+}
+
 .company-profile {
   grid-column: span 12;
   text-align: center;
@@ -321,6 +325,12 @@ input:focus {
 @media only screen and (max-width: 1430px) {
   .left-img-center {
     width: 41%;
+  }
+  .naslov {
+    width: auto;
+  }
+  .shine {
+    margin-left: 850px;
   }
   .mega_title {
     font-size: 100px;

@@ -4,7 +4,7 @@
   height: 99.6%;
 }
 
-.navbar {
+.menu-full {
   background-color: transparent;
   color: white;
 }
@@ -418,6 +418,9 @@ picture img {
   background-color: #FFFFFF;
   color: #000000;
 }
+.inverted .han-burger, .inverted .han-burger::after, .inverted .han-burger::before {
+  background-color: black;
+}
 
 .wide-img-holder {
   padding-top: 75%;
@@ -477,8 +480,11 @@ picture img {
 }
 
 .dva {
-  margin-top: 180px;
-  margin-bottom: 180px;
+  margin-bottom: 64px;
+}
+
+.tri {
+  margin-top: 64px;
 }
 
 .boat-2 {
@@ -611,6 +617,8 @@ picture img {
   }
   .dva {
     margin-top: 64px;
+  }
+  .tri {
     margin-bottom: 64px;
   }
   .text-box-2 .left-side {

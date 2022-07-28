@@ -6,9 +6,12 @@
 body{
     background-color: rgb(243, 243, 243);
 }
-.navbar{
+.menu-full{
     background-color: transparent;
     position: absolute !important;
+}
+.han-burger, .han-burger::after, .han-burger::before{
+    background-color: black !important;
 }
 .boatnaslov{
     position: fixed;

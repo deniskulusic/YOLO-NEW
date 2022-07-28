@@ -13,14 +13,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap" rel="stylesheet">
+<link href="http://fonts.cdnfonts.com/css/clash-display" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <div class="navbar" id="navbar ">
-        <div id="menu-button">MENU </div>
-        <img src="assets/img/Group-104.webp" class="flex" alt="">
+    <div class="menu-full" >
+        <div class="navbar">
+            <div onclick="menu()" class="han-menu-full">
+                <div class="menu-text">MENU </div>
+                
+            <div class="han-menu">
+                <div class="han-burger"></div>
+            </div>
+            </div>
+            <img src="assets/img/Group-104.webp" class="flex" alt="">
         <img src="assets/img/Logo.svg" class="none"alt="">
-        <div></div>
+            <div class="placeholder"></div>
+        </div>
+        <div class="menu-div maxw grid container">
+            <h3>Home</h3>
+            <h3>Yolo</h3>
+            <h3>Expirience</h3>
+            <h3>Destination</h3>
+            <h3>Inquire now</h3>
+        </div>
     </div>
     <div class="boatnaslov paralax-header">
        
@@ -109,24 +125,11 @@
             <div class="onepix"></div>
                             </div>
     </div>
-    <div class="slider-element">  
-        <div class="HOLDER"> 
-            <img src="assets/img/Hvar.webp" alt=""></div>   
-        <div class="slider-el-content">
-            <h5>ISLAND</h5>
-            <h2>Hvar</h2>
-            <div class="onepix"></div>
-                            </div>
+    
     </div>
-    <div class="slider-element">  
-        <div class="HOLDER"> 
-            <img src="assets/img/Hvar.webp" alt=""></div> 
-        <div class="slider-el-content">
-            <h5>ISLAND</h5>
-            <h2>Hvar</h2>
-            <div class="onepix"></div>
-                            </div>
-    </div>
+    <div class="slider-buttons absolute mobile_none">
+        <div class="circle-button nazad2"></div>
+        <div class="circle-button naprid2"></div>
     </div>
 </div>
 <div class="maxw container grid section-3">
@@ -143,15 +146,15 @@
     </div>
 </div>
 <div class="paralax2">
-    <div class="paralax2in">
+   
 <div class="maxw container grid naslov-slider " >
     <div class="naslov">
         <h5>OUR REFERENCES</h5>
         <h2>What do they say about Yolo?</h2>
     </div>
     <div class="slider-buttons mobile_none">
-        <div class="circle-button"></div>
-        <div class="circle-button"></div>
+        <div class="circle-button nazad"></div>
+        <div class="circle-button naprid"></div>
     </div>
 </div>
 <div class="maxw container grid section-4 " >
@@ -190,7 +193,8 @@
     </div>
 </div>
 
-</div></div></div>
+</div>
+</div>
 </div>
 <div class="paralax-white white2" >
 <div class="boatnaslov paralaxexp" >
@@ -206,7 +210,7 @@
     </div>
 </div>
     <div class="paralax22">
-        <div class="paralax22in">  
+         
 <div class="maxw container grid">
     <div class="naslov-t">
     <h5>WHY YOLO</h5>
@@ -245,7 +249,7 @@
         </div>
             </div>
 </div>
-</div></div>
+</div>
 
 </div>
 <footer class="paralaxexp2">
@@ -273,8 +277,9 @@
  <div><a href="Travel.html">Travel Tips</a><a href="Terms.html">terms of service</a><a href="Privacy.html">Privacy policy</a></div>
  </div>
 </div>
- </footer>    
+ </footer>  
+ <script src="js/general.js"></script>
  <script src="js/index.js"></script>   
- <script src="js/parallax.js"></script>  
+<script src="js/slider.js"></script>
     </body>
     </html>

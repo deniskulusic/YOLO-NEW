@@ -7,7 +7,9 @@ $blue-overlay:rgba(1, 49, 170, 0.8);;
 .desktop_none{
     display: none;
 }
-
+.han-burger, .han-burger::after, .han-burger::before{
+    background-color: black !important;
+}
 
 .naslov{
     display:flex;

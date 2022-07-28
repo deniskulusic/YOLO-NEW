@@ -4,11 +4,7 @@
   height: 99.6%;
 }
 
-.navbar {
-  background-color: transparent;
-}
-
-.navbar {
+.menu-full {
   background-color: transparent;
   color: white;
 }
@@ -342,6 +338,9 @@ picture img {
 .inverted {
   background-color: #FFFFFF;
   color: #000000;
+}
+.inverted .han-burger, .inverted .han-burger::after, .inverted .han-burger::before {
+  background-color: black;
 }
 
 .text-box-3 .left-side {

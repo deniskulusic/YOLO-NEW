@@ -59,6 +59,10 @@
   margin-bottom: 36px;
 }
 
+.han-burger, .han-burger::after, .han-burger::before {
+  background-color: black !important;
+}
+
 .faq {
   height: auto;
   margin-bottom: 28px;

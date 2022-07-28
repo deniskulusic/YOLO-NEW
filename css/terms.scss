@@ -32,6 +32,7 @@ $blue-overlay:rgba(1, 49, 170, 0.8);;
     }
     
 }
+
 .shine{
     
     height: 70px;
@@ -122,7 +123,9 @@ margin:0;
             margin-bottom: 8px;
         }
     }
-
+    .han-burger, .han-burger::after, .han-burger::before{
+        background-color: black !important;
+    }  
 @media only screen and (max-width: 950px) {
     .mobile-none{
         display: none;

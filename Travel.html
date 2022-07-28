@@ -10,13 +10,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500&display=swap" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/clash-display" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <div class="navbar">
-        <div>MENU </div>
+    <div class="menu-full" >
+        <div class="navbar">
+            <div onclick="menu()" class="han-menu-full">
+                <div class="menu-text">MENU </div>
+                
+            <div class="han-menu">
+                <div class="han-burger"></div>
+            </div>
+            </div>
+ 
         <img src="assets/img/Logo.svg" alt="">
-        <div></div>
+            <div class="placeholder"></div>
+        </div>
+        <div class="menu-div maxw grid container">
+            <h3>Home</h3>
+            <h3>Yolo</h3>
+            <h3>Expirience</h3>
+            <h3>Destination</h3>
+            <h3>Inquire now</h3>
+        </div>
     </div>
     
     <div class="naslov mobile-none">
@@ -294,7 +311,7 @@
 
 
 
-    <section >
+    <section class="paralax22">
     <div class="grid">
             <div class="e_text">
             <h5>OUR POLICIES AND OBLIGATIONS</h5>
@@ -326,7 +343,7 @@
     </section>
     
 </div>
-<footer>
+<footer class="paralaxexp2">
     <div class="footer_grid container">
  <div class="top">
      <img src="assets/img/Group-104.webp" height="28px" width="68.95px"alt="">
@@ -353,5 +370,6 @@
 </div>
  </footer>
  <script src="js/faq.js"></script>
+ <script src="js/general.js"></script>
 </body>
 </html>

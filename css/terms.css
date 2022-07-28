@@ -117,6 +117,10 @@ picture img {
   margin-bottom: 8px;
 }
 
+.han-burger, .han-burger::after, .han-burger::before {
+  background-color: black !important;
+}
+
 @media only screen and (max-width: 950px) {
   .mobile-none {
     display: none;
