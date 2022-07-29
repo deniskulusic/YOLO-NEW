@@ -527,12 +527,18 @@ picture img {
   .naslov h2 {
     margin-bottom: 48px;
   }
+  .section-1 {
+    margin-top: 0;
+  }
+  .naslov {
+    margin-top: 64px;
+  }
   .right-side-img {
     min-height: auto;
     height: 700px;
   }
   .slike-spread {
-    margin-top: 0px;
+    margin-top: 64px;
     margin-bottom: 128px;
   }
   .left-side {
@@ -655,6 +661,14 @@ picture img {
 @media only screen and (max-width: 650px) {
   .boat-holder {
     padding-top: 217%;
+  }
+  .contact-us-img_content-spread {
+    margin-right: 40px;
+    margin-top: -60px;
+  }
+  .contact-us-img_content-spread img {
+    height: 38px;
+    width: 41px;
   }
   .right-side-img, .left-side-img, .left-side {
     min-height: auto;

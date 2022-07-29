@@ -519,6 +519,14 @@ picture img {
   .slider {
     margin-top: 500px;
   }
+  .contact-us-img_content-spread {
+    margin-right: 40px;
+    margin-top: -60px;
+  }
+  .contact-us-img_content-spread img {
+    height: 38px;
+    width: 41px;
+  }
   .naslov-slider {
     margin-top: 0;
   }
