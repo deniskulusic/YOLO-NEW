@@ -131,7 +131,7 @@ picture img {
   .naslov {
     height: 150px;
     margin-top: 172px;
-    margin-bottom: 128px;
+    margin-bottom: 108px;
     width: auto;
   }
   .naslov div {
@@ -178,13 +178,23 @@ picture img {
   .box_image_holder {
     padding-top: 127%;
   }
+  .term h3 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .box_content h4 {
+    margin-right: 50px;
+  }
+  .box_content h4:last-of-type {
+    margin-right: 0;
+  }
   .naslov {
     width: auto;
-    height: 80px;
+    height: 94px;
   }
   .naslov div {
-    -moz-column-gap: 5px;
-         column-gap: 5px;
+    -moz-column-gap: 8px;
+         column-gap: 8px;
   }
   .naslov div img {
     height: 35px;

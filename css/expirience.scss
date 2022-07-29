@@ -163,7 +163,7 @@ position: relative;
     width: 100%;
 justify-content: center;
 grid-column: span 12;
-margin-top: -24px;
+
 }
 .naslov{
     z-index: 2;
@@ -291,7 +291,7 @@ position: relative;
 
 .terms{
     z-index: 1;
-    
+   
 }
 
 .term {
@@ -373,11 +373,14 @@ padding-left: 0 !important;
     overflow: hidden;
 position: relative;
 max-height: 0;
-transition:  0.25s ease-out;
+transition: .5s;
 
 }
 .active-box{
     max-height: 2000px ;
+    .term:last-of-type{
+    padding-bottom: 0;
+    }
 }
 .slid-img-wraper{
     width: 100%;

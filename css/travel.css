@@ -277,7 +277,7 @@ picture img {
   }
   .p_grid {
     flex-direction: column;
-    row-gap: 32px;
+    row-gap: 48px;
     margin-bottom: 370px;
   }
   .map {
@@ -334,12 +334,15 @@ picture img {
     width: 80%;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   .map {
-    top: 1100px;
+    top: 1097px;
     height: 433px;
   }
   .p_grid {
     margin-bottom: 473px;
+  }
+  .section-1 .e_text h3 {
+    margin-right: 0px;
   }
 }/*# sourceMappingURL=travel.css.map */

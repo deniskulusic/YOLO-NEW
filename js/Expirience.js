@@ -80,7 +80,6 @@ var i=0;
 var downbox=document.getElementById('cool');
 var downbutton=document.getElementById('down-button');
   downbutton.addEventListener("click", function(){
-  
   downbox.classList.toggle('active-box');
     if(i%2==0)
     downbutton.innerHTML="SHOW LESS"

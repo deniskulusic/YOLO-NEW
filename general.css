@@ -31,6 +31,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.scroller {
+  cursor: pointer;
+  z-index: 9;
+}
+
 .fade {
   position: absolute;
   width: 100%;
@@ -38,6 +43,14 @@ html {
   background: rgba(0, 0, 0, 0.5);
   z-index: 2;
   top: 0;
+}
+
+.socials img {
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding-right: 0 !important;
 }
 
 body {
@@ -252,7 +265,7 @@ p {
   width: 100%;
   flex-direction: column;
   z-index: 10;
-  transition: 0.25s ease-in-out;
+  transition: 0.5s ease-in-out;
   opacity: 98%;
 }
 
@@ -277,6 +290,7 @@ p {
   margin-top: 69px;
 }
 .menu-div h3 {
+  cursor: pointer;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -313,7 +327,8 @@ footer {
   z-index: 9;
   height: auto;
   width: 100%;
-  background-color: rgba(1, 49, 170, 0.99);
+  background-color: #345ABB;
+  opacity: 99%;
   margin-top: 180px;
 }
 footer h2 {
@@ -325,6 +340,7 @@ footer h3 {
   font-weight: 300;
   font-size: 25px;
   line-height: 170%;
+  cursor: pointer;
 }
 footer h4 {
   font-weight: 500;
@@ -461,6 +477,9 @@ footer a {
   .mid div {
     margin-top: 64px;
   }
+  .socials {
+    margin-top: 0 !important;
+  }
   .bot {
     flex-direction: column;
     margin-top: 64px;
@@ -500,6 +519,9 @@ footer a {
     margin-left: 0 !important;
     width: 32px !important;
     height: 16px;
+  }
+  .socials img {
+    margin-right: 0;
   }
   .han-burger {
     height: 2.22px;

@@ -175,15 +175,16 @@ picture img {
   }
   .naslov {
     width: auto;
-    height: 80px;
+    height: 94px;
   }
   .naslov div {
-    -moz-column-gap: 5px;
-         column-gap: 5px;
+    -moz-column-gap: 8px;
+         column-gap: 8px;
   }
   .naslov div img {
     height: 35px;
     margin-top: 12px;
+    margin-right: 0 !important;
   }
   .shine {
     height: 41px;

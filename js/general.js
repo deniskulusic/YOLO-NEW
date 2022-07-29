@@ -8,11 +8,19 @@ distanceFromTop2 = window.pageYOffset + el2.getBoundingClientRect().top;
 static2=distanceFromTop2;
 height = el2.offsetHeight;
 });
-
+var downbutton=document.getElementById('down-button');
+downbutton.addEventListener("click", function(){
+    setTimeout(function(){ 
+        distanceFromTop2 = window.pageYOffset + el2.getBoundingClientRect().top;
+        static2=distanceFromTop2;
+     }, 500);
+  
+});
+   
 
 
 window.addEventListener("scroll", function() {
-    console.log(static2)
+    
     var distance = window.scrollY;
     if(height>window.innerHeight-108){
         if(distance-static2<0){
@@ -38,4 +46,4 @@ window.addEventListener("scroll", function() {
         document.querySelector(".menu-full").classList.toggle('menu-active');
         document.body.classList.toggle('stop-sroll');
       }
-     
+  

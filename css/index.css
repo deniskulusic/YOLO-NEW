@@ -30,6 +30,13 @@ picture img {
   height: 48px;
   background-color: #0047FF;
   border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-button:first-of-type img {
+  transform: scaleX(-1);
 }
 
 .menu-full {
@@ -148,7 +155,7 @@ picture img {
   margin-bottom: 56px;
 }
 .right-side h4 {
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 .right-side p {
   margin-bottom: 32px;

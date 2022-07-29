@@ -176,7 +176,6 @@ picture img {
   width: 100%;
   justify-content: center;
   grid-column: span 12;
-  margin-top: -24px;
 }
 
 .naslov {
@@ -376,11 +375,14 @@ picture img {
   overflow: hidden;
   position: relative;
   max-height: 0;
-  transition: 0.25s ease-out;
+  transition: 0.5s;
 }
 
 .active-box {
   max-height: 2000px;
+}
+.active-box .term:last-of-type {
+  padding-bottom: 0;
 }
 
 .slid-img-wraper {

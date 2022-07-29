@@ -17,6 +17,7 @@
     <title>Document</title>
 </head>
 <body>
+   
     <div class="menu-full" >
         <div class="navbar">
             <div onclick="menu()" class="han-menu-full">
@@ -31,11 +32,11 @@
             <div class="placeholder"></div>
         </div>
         <div class="menu-div maxw grid container">
-            <h3>Home</h3>
-            <h3>Yolo</h3>
-            <h3>Expirience</h3>
-            <h3>Destination</h3>
-            <h3>Inquire now</h3>
+            <h3 onClick="location.href='Index.html'">  Home </h3>
+            <h3 onClick="location.href='Yolo.html'"> Yolo </h3>
+            <h3 onClick="location.href='Expirience.html'">Experience </h3>
+                <h3 onClick="location.href='Destination.html'">Destinations </h3>
+                    <h3 onClick="location.href='Inquire.html'">Inquire Now</h3>
         </div>
     </div>
     <div class="boatnaslov paralax-header">
@@ -43,7 +44,7 @@
             
         <img src="assets/img/Rectangle-55 (1).webp" alt="">
         <div class="fade"></div>
-        <div class="scroller mobile_none">
+        <div class="scroller mobile_none " onClick="location.href='#next'">
         
             <img src="assets/img/Scroller.svg" alt="">
             
@@ -54,7 +55,7 @@
 </div>
 </div>
 </div>
-<div class="paralax-white ">
+<div class="paralax-white " id="next">
     <div class="container maxw section-1">
         <div class="left-img-center mobile_none">
             <div class="contact_left_img">
@@ -309,7 +310,7 @@
          <img src="assets/img/Group-104.webp" height="28px" width="68.95px"alt="">
      </div>
      <div class="mid">
-         <div> <h2> hello@yolo.hr <br>00385911536542</h2></div>
+         <div> <h2> hello@yolo.hr <br>00385911536542</h2><div class="socials"><img src="assets/img/icons/Frame.svg" alt=""><img src="assets/img/icons/Frame2.svg" alt=""><img src="assets/img/icons/Frame3.svg" alt=""></div></div>
          <div><h3 onClick="location.href='Index.html'">  Home </h3>
             <h3 onClick="location.href='Yolo.html'"> Yolo </h3>
             <h3 onClick="location.href='Expirience.html'">Experience </h3>
@@ -329,7 +330,7 @@
      </div>
     </div>
      </footer>
-    
+     <div id="down-button"></div>
      <script src="js/index.js"></script>
      <script src="js/general.js"></script>
 </body>
