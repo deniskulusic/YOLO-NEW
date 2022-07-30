@@ -27,6 +27,7 @@ picture{
     display: flex;
     align-items: center;
     justify-content: center;
+    filter: drop-shadow(6px 57px 23px rgba(26, 113, 255, 0.04)) drop-shadow(3px 32px 20px rgba(26, 113, 255, 0.13)) drop-shadow(2px 14px 14px rgba(26, 113, 255, 0.21)) ;
     
 }
 .circle-button:first-of-type{
@@ -37,6 +38,7 @@ picture{
 .menu-full{
     background-color: transparent;
     color:white;
+    backdrop-filter: blur(0px);
 }
 .none{
     display: none;
@@ -436,8 +438,9 @@ box-shadow: none;
 }
 
 .inverted{
-    background-color: #FFFFFF;
-    color: black;
+    background: rgba(255, 255, 255, 0.85);
+    color: #000000;
+    backdrop-filter: blur(85px);
     .han-burger, .han-burger::after,.han-burger::before {
         background-color: black;
     }
@@ -683,5 +686,16 @@ margin-bottom: 120px;
 }
 .naslov-t{
     margin-top: 128px;
+}
+.section-3{
+    padding-left: 0;
+    padding-right: 0;
+    h5, h2, p{
+        padding-left: 24px;
+    padding-right: 24px;
+    }
+    .blue_button{
+        margin-left: 24px;
+    }
 }
 }

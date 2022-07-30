@@ -60,6 +60,7 @@ body{
 margin: 0;
 display: flex;
 flex-direction: column;
+
 }
 .stop-sroll{
     overflow-y: hidden !important;
@@ -149,7 +150,6 @@ text-align: left !important;
     cursor: pointer;
     background-color: #0047FF;
     padding: 20px 48px;
-    
     width: fit-content;
     box-shadow: 6px 57px 23px rgba(26, 113, 255, 0.04), 3px 32px 20px rgba(26, 113, 255, 0.13), 2px 14px 14px rgba(26, 113, 255, 0.21), 0px 4px 8px rgba(26, 113, 255, 0.25), 0px 0px 0px rgba(26, 113, 255, 0.25);
     display: flex;
@@ -246,11 +246,11 @@ letter-spacing: 0.21em;
     }
     
     .menu-full{
-        
         display: flex;
         position: fixed;
         height: auto;
-        background-color: white;
+        background: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(85px);
         width: 100%;
         flex-direction: column;
         z-index: 10;
@@ -292,7 +292,7 @@ letter-spacing: 0.03em;
     
     .menu-active{
         background-color: rgba(0, 0, 0, 0.2) !important;
-    backdrop-filter: blur(300px);
+    backdrop-filter: blur(300px) !important;
         .menu-div{
             height: calc(100vh - 108px);
         }
@@ -312,12 +312,11 @@ letter-spacing: 0.03em;
     footer{
     z-index: 9;
         height: auto;
-   
+        
         width: 100%;
-        background-color: #345ABB;
-        opacity: 99%;
- 
-        margin-top: 180px;
+        background: rgba(1, 49, 170, 0.8);
+    margin-top: 180px;
+    backdrop-filter: blur(80px);
         
         h2{
             font-weight: 400;

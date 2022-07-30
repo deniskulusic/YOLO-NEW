@@ -13,6 +13,7 @@ $blue-overlay:rgba(1, 49, 170, 0.8);
 .menu-full{
     background-color: transparent;
     color:white;
+    backdrop-filter: blur(0px);
 }
 .none{
     display: none;
@@ -407,8 +408,9 @@ margin-right: 14%;
     backdrop-filter: blur(150px);
 }
 .inverted{
-    background-color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.85);
     color: #000000;
+    backdrop-filter: blur(85px);
     .han-burger, .han-burger::after,.han-burger::before {
         background-color: black;
     }
@@ -458,10 +460,10 @@ img{
     margin-top: 180px;
 }
 .dva{
-    margin-bottom:64px
+    margin-bottom:180px
 }
 .tri{
-    margin-top: 64px;
+    margin-top: 180px;
 }
 .boat-2{
     

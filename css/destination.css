@@ -7,6 +7,8 @@
 .menu-full {
   background-color: transparent;
   color: white;
+  -webkit-backdrop-filter: blur(0px);
+          backdrop-filter: blur(0px);
 }
 
 .none {
@@ -336,8 +338,10 @@ picture img {
 }
 
 .inverted {
-  background-color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.85);
   color: #000000;
+  -webkit-backdrop-filter: blur(85px);
+          backdrop-filter: blur(85px);
 }
 .inverted .han-burger, .inverted .han-burger::after, .inverted .han-burger::before {
   background-color: black;
